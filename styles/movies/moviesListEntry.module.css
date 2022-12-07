@@ -1,0 +1,23 @@
+.container .card {
+    height: 100%;
+    min-height: 520px;
+    position: relative;
+    padding-bottom: 60px;
+}
+.container .card img {
+    height: 200px;
+    object-fit: cover;
+}
+.container .card .cardContent {
+    position: relative;
+}
+.container .card .cardContent .favoriteIcon {
+    position: absolute;
+    top: -60px;
+    right: 15px;
+}
+.container .card .readMore {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
